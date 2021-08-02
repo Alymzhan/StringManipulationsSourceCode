@@ -2,7 +2,7 @@
 List of String manipulations methods. Examples were created by Tim Corey.
 
  ## StringConversion()
-```cs
+```c#
 
             string testString = "tHis iS tHe FBI Calling!";
             TextInfo currentTextInfo = CultureInfo.CurrentCulture.TextInfo;
@@ -33,7 +33,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## EscapeString()
-```html
+```c#
 
             string results;
 
@@ -49,7 +49,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## AppendingStrings()
-```html
+```c#
 
             string firstName = "Tim";
             string lastName = "Corey";
@@ -68,7 +68,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## InterpolationAndLiteral()
-```html
+```c#
 
             string testString = "Tim Corey";
             string results = $@"C:\Demo\{testString}\{"\""}Test{"\""}.txt";
@@ -78,7 +78,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## StringBuilderDemo()
-```html
+```c#
 
             Stopwatch regularStopwatch = new Stopwatch();
             regularStopwatch.Start();
@@ -109,7 +109,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## WorkingWithArrays()
-```html
+```c#
 
             int[] ages = new int[] { 6, 7, 8, 3, 5 };
             string results;
@@ -137,7 +137,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## PadAndTrim()
-```html
+```c#
 
             string testString = "     Hello World      ";
             string results;
@@ -162,7 +162,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## SearchingStrings()
-```html
+```c#
 
             string testString = "This is a test of the search. Let's see how its testing works out.";
             bool resultsBoolean;
@@ -207,7 +207,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## OrderingStrings()
-```html
+```c#
 
             CompareToHelper("Mary", "Bob");
             CompareToHelper("Mary", null);
@@ -228,7 +228,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## CompareToHelper(string testA, string? testB)
-```html
+```c#
 
             int resultsInt = testA.CompareTo(testB);
             switch (resultsInt)
@@ -247,7 +247,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## CompareHelper(string? testA, string? testB)
-```html
+```c#
 
             int resultsInt = String.Compare(testA, testB);
 
@@ -267,7 +267,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## TestingEquality()
-```html
+```c#
 
             EqualityHelper("Bob", "Mary");
             EqualityHelper(null, "");
@@ -277,7 +277,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## EqualityHelper(string? testA, string? testB)
-```html
+```c#
 
             bool resultsBoolean;
 
@@ -316,7 +316,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## GettingASubstring()
-```html
+```c#
 
             string testString = "This is a test of substring. Let's see how its testing works out.";
             string results;
@@ -330,7 +330,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## ReplacingText()
-```html
+```c#
 
             string testString = "This is a test of replace. Let's see how its testing Works out for test.";
             string results;
@@ -347,7 +347,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## InsertingText()
-```html
+```c#
 
             string testString = "This is a test of insert. Let's see how its testing Works out for test.";
             string results;
@@ -358,7 +358,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## RemovingText()
-```html
+```c#
 
             string testString = "This is a test of remove. Let's see how its testing Works out for test.";
             string results;
