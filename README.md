@@ -2,7 +2,6 @@
 List of String manipulations methods. Examples were created by Tim Corey.
 
  ## StringConversion()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "tHis iS tHe FBI Calling!";
@@ -22,7 +21,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## StringAsArray()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "Timothy";
@@ -35,7 +33,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## EscapeString()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string results;
@@ -52,7 +49,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## AppendingStrings()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string firstName = "Tim";
@@ -72,7 +68,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## InterpolationAndLiteral()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "Tim Corey";
@@ -83,7 +78,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## StringBuilderDemo()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             Stopwatch regularStopwatch = new Stopwatch();
@@ -115,7 +109,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## WorkingWithArrays()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             int[] ages = new int[] { 6, 7, 8, 3, 5 };
@@ -144,7 +137,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## PadAndTrim()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "     Hello World      ";
@@ -170,7 +162,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## SearchingStrings()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "This is a test of the search. Let's see how its testing works out.";
@@ -216,7 +207,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## OrderingStrings()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             CompareToHelper("Mary", "Bob");
@@ -238,7 +228,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## CompareToHelper(string testA, string? testB)
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             int resultsInt = testA.CompareTo(testB);
@@ -258,7 +247,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## CompareHelper(string? testA, string? testB)
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             int resultsInt = String.Compare(testA, testB);
@@ -279,7 +267,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## TestingEquality()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             EqualityHelper("Bob", "Mary");
@@ -290,7 +277,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## EqualityHelper(string? testA, string? testB)
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             bool resultsBoolean;
@@ -330,7 +316,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## GettingASubstring()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "This is a test of substring. Let's see how its testing works out.";
@@ -345,7 +330,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## ReplacingText()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "This is a test of replace. Let's see how its testing Works out for test.";
@@ -363,7 +347,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## InsertingText()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "This is a test of insert. Let's see how its testing Works out for test.";
@@ -375,7 +358,6 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## RemovingText()
-        </code></pre>
 ```html
 <pre><code class='language-cs'>
             string testString = "This is a test of remove. Let's see how its testing Works out for test.";
