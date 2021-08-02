@@ -2,7 +2,7 @@
 List of String manipulations methods. Examples were created by Tim Corey.
 
  ## StringConversion()
-```html
+```cs
 
             string testString = "tHis iS tHe FBI Calling!";
             TextInfo currentTextInfo = CultureInfo.CurrentCulture.TextInfo;
@@ -21,7 +21,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
 ```
 
 ## StringAsArray()
-```html
+```c#
 
             string testString = "Timothy";
 
