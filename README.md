@@ -1,5 +1,6 @@
 # StringManipulationsSourceCode
-List of String manipulations methods. Examples were created by Tim Corey.
+List of String manipulations methods. Examples were provided by Tim Corey.
+I added output results under each example as comment, so you don't need to run this code to see results. I hope it will help you understand how it works more easy! =)
 
  ## StringConversion()
 ```c#
