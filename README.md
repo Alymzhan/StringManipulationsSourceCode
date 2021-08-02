@@ -2,7 +2,9 @@
 List of String manipulations methods. Examples were created by Tim Corey.
 
  ## StringConversion()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "tHis iS tHe FBI Calling!";
             TextInfo currentTextInfo = CultureInfo.CurrentCulture.TextInfo;
             TextInfo englishTextInfo = new CultureInfo("en-US", false).TextInfo;
@@ -16,20 +18,26 @@ List of String manipulations methods. Examples were created by Tim Corey.
 
             result = englishTextInfo.ToTitleCase(testString);
             Console.WriteLine(result);
-        ```
+        </code></pre>
+```
 
 ## StringAsArray()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "Timothy";
 
             for (int i = 0; i < testString.Length; i++)
             {
                 Console.WriteLine(testString[i]);
             }
-        ```
+        </code></pre>
+```
 
 ## EscapeString()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string results;
 
             results = "This is my \"test\" solution.";
@@ -40,10 +48,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
 
             results = @"C:\Demo\Test.txt";
             Console.WriteLine(results);
-        ```
+        </code></pre>
+```
 
 ## AppendingStrings()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string firstName = "Tim";
             string lastName = "Corey";
             string results;
@@ -57,18 +68,24 @@ List of String manipulations methods. Examples were created by Tim Corey.
 
             results = $"{firstName}, my name is {firstName} {lastName}";
             Console.WriteLine(results);
-        ```
+        </code></pre>
+```
 
 ## InterpolationAndLiteral()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "Tim Corey";
             string results = $@"C:\Demo\{testString}\{"\""}Test{"\""}.txt";
 
             Console.WriteLine(results);
-        ```
+        </code></pre>
+```
 
 ## StringBuilderDemo()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             Stopwatch regularStopwatch = new Stopwatch();
             regularStopwatch.Start();
 
@@ -94,10 +111,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
             
             builderStopwatch.Stop();
             Console.WriteLine($"String Builder Stopwatch: { builderStopwatch.ElapsedMilliseconds }ms");
-        ```
+        </code></pre>
+```
 
 ## WorkingWithArrays()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             int[] ages = new int[] { 6, 7, 8, 3, 5 };
             string results;
 
@@ -120,10 +140,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
             resultsArray = testString.Split(", ");
 
             Array.ForEach(resultsArray, x => Console.WriteLine(x));
-        ```
+        </code></pre>
+```
 
 ## PadAndTrim()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "     Hello World      ";
             string results;
 
@@ -143,10 +166,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
 
             results = testString.PadRight(10, '0');
             Console.WriteLine(results);
-        ```
+        </code></pre>
+```
 
 ## SearchingStrings()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "This is a test of the search. Let's see how its testing works out.";
             bool resultsBoolean;
             int resultsInt;
@@ -186,10 +212,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
 
             resultsInt = testString.LastIndexOf("test", 10);
             Console.WriteLine($"Last Index of \"test\" before character 10: {resultsInt}");
-        ```
+        </code></pre>
+```
 
 ## OrderingStrings()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             CompareToHelper("Mary", "Bob");
             CompareToHelper("Mary", null);
             CompareToHelper("Adam", "Bob");
@@ -205,10 +234,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
             CompareHelper("Bob", "Bob");
             CompareHelper("Bob", "Bobby");
             CompareHelper(null, null);
-        ```
+        </code></pre>
+```
 
 ## CompareToHelper(string testA, string? testB)
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             int resultsInt = testA.CompareTo(testB);
             switch (resultsInt)
             {
@@ -222,10 +254,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
                     Console.WriteLine($"CompareTo: { testA } is the same as { testB }");
                     break;
             }
-        ```
+        </code></pre>
+```
 
 ## CompareHelper(string? testA, string? testB)
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             int resultsInt = String.Compare(testA, testB);
 
             switch (resultsInt)
@@ -240,18 +275,24 @@ List of String manipulations methods. Examples were created by Tim Corey.
                     Console.WriteLine($"Compare: { testA ?? "null" } is the same as { testB ?? "null" }");
                     break;
             }
-        ```
+        </code></pre>
+```
 
 ## TestingEquality()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             EqualityHelper("Bob", "Mary");
             EqualityHelper(null, "");
             EqualityHelper("", " ");
             EqualityHelper("Bob", "bob");
-        ```
+        </code></pre>
+```
 
 ## EqualityHelper(string? testA, string? testB)
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             bool resultsBoolean;
 
             resultsBoolean = String.Equals(testA, testB);
@@ -285,10 +326,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
             }
 
             Console.WriteLine();
-        ```
+        </code></pre>
+```
 
 ## GettingASubstring()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "This is a test of substring. Let's see how its testing works out.";
             string results;
 
@@ -297,10 +341,13 @@ List of String manipulations methods. Examples were created by Tim Corey.
 
             results = testString.Substring(5, 4);
             Console.WriteLine(results);
-        ```
+        </code></pre>
+```
 
 ## ReplacingText()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "This is a test of replace. Let's see how its testing Works out for test.";
             string results;
 
@@ -312,19 +359,25 @@ List of String manipulations methods. Examples were created by Tim Corey.
 
             results = testString.Replace("works", "makes", StringComparison.InvariantCultureIgnoreCase);
             Console.WriteLine(results);
-        ```
+        </code></pre>
+```
 
 ## InsertingText()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "This is a test of insert. Let's see how its testing Works out for test.";
             string results;
 
             results = testString.Insert(5, "(test) ");
             Console.WriteLine(results);
-        ```
+        </code></pre>
+```
 
 ## RemovingText()
-        ```
+        </code></pre>
+```html
+<pre><code class='language-cs'>
             string testString = "This is a test of remove. Let's see how its testing Works out for test.";
             string results;
 
@@ -333,4 +386,5 @@ List of String manipulations methods. Examples were created by Tim Corey.
 
             results = testString.Remove(14, 10);
             Console.WriteLine(results);
-        ```
+        </code></pre>
+```
