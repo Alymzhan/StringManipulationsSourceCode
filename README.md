@@ -1,8 +1,8 @@
-# StringManipulationsSourceCode
-List of String manipulations methods. Examples were provided by Tim Corey.
-I added output results under each example as comment, so you don't need to run this code to see results. I hope it will help you understand how it works more easy! =)
+# C# String manipulations SourceCode
+List of String manipulations methods for C#. Examples were provided by Tim Corey.
+I added output results under each example as comment. 
 
- ## StringConversion()
+ ## String Conversion
 ```c#
 
             string testString = "tHis iS tHe FBI Calling!";
@@ -24,7 +24,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## StringAsArray()
+## String as Array
 ```c#
 
             string testString = "Timothy";
@@ -45,7 +45,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## EscapeString()
+## Escape String
 ```c#
 
             string results;
@@ -64,7 +64,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## AppendingStrings()
+## Appending Strings
 ```c#
 
             string firstName = "Tim";
@@ -87,7 +87,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## InterpolationAndLiteral()
+## Interpolation and Literal
 ```c#
 
             string testString = "Tim Corey";
@@ -98,7 +98,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## StringBuilderDemo()
+## StringBuilder Demo
 ```c#
 
             Stopwatch regularStopwatch = new Stopwatch();
@@ -131,7 +131,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## WorkingWithArrays()
+## Working with Arrays
 ```c#
 
             int[] ages = new int[] { 6, 7, 8, 3, 5 };
@@ -178,7 +178,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## PadAndTrim()
+## Pad and Trim
 ```c#
 
             string testString = "     Hello World      ";
@@ -208,7 +208,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## SearchingStrings()
+## Searching Strings
 ```c#
 
             string testString = "This is a test of the search. Let's see how its testing works out.";
@@ -265,7 +265,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## OrderingStrings()
+## Ordering Strings
 ```c#
 
             CompareToHelper("Mary", "Bob");
@@ -334,7 +334,7 @@ I added output results under each example as comment, so you don't need to run t
 
 ```
 
-## TestingEquality()
+## Testing Equality
 ```c#
 
             EqualityHelper("Bob", "Mary");
@@ -401,7 +401,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## GettingASubstring()
+## Getting a Substring
 ```c#
 
             string testString = "This is a test of substring. Let's see how its testing works out.";
@@ -417,7 +417,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## ReplacingText()
+## Replacing Text
 ```c#
 
             string testString = "This is a test of replace. Let's see how its testing Works out for test.";
@@ -437,7 +437,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## InsertingText()
+## Inserting Text
 ```c#
 
             string testString = "This is a test of insert. Let's see how its testing Works out for test.";
@@ -449,7 +449,7 @@ I added output results under each example as comment, so you don't need to run t
         
 ```
 
-## RemovingText()
+## Removing Text
 ```c#
 
             string testString = "This is a test of remove. Let's see how its testing Works out for test.";
