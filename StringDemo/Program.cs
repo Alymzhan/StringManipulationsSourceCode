@@ -17,14 +17,14 @@ namespace StringDemo
             //InterpolationAndLiteral();
             //StringBuilderDemo();
             //WorkingWithArrays();
-            //PadAndTrim();
-            //SearchingStrings();
-            //OrderingStrings();
-            //TestingEquality();
-            //GettingASubstring();
-            //ReplacingText();
-            //InsertingText();
-            //RemovingText();
+            PadAndTrim();
+            SearchingStrings();
+            OrderingStrings();
+            TestingEquality();
+            GettingASubstring();
+            ReplacingText();
+            InsertingText();
+            RemovingText();
         }
 
         private static void StringConversion()
