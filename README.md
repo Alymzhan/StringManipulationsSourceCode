@@ -2,7 +2,7 @@
 List of String manipulations methods. Examples were created by Tim Corey.
 
  ## StringConversion()
-        ```cs
+        ```csharp
             string testString = "tHis iS tHe FBI Calling!";
             TextInfo currentTextInfo = CultureInfo.CurrentCulture.TextInfo;
             TextInfo englishTextInfo = new CultureInfo("en-US", false).TextInfo;
@@ -19,7 +19,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## StringAsArray()
-        ```cs
+        ```csharp
             string testString = "Timothy";
 
             for (int i = 0; i < testString.Length; i++)
@@ -29,7 +29,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## EscapeString()
-        ```cs
+        ```csharp
             string results;
 
             results = "This is my \"test\" solution.";
@@ -43,7 +43,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## AppendingStrings()
-        ```cs
+        ```csharp
             string firstName = "Tim";
             string lastName = "Corey";
             string results;
@@ -60,7 +60,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## InterpolationAndLiteral()
-        ```cs
+        ```csharp
             string testString = "Tim Corey";
             string results = $@"C:\Demo\{testString}\{"\""}Test{"\""}.txt";
 
@@ -68,7 +68,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## StringBuilderDemo()
-        ```cs
+        ```csharp
             Stopwatch regularStopwatch = new Stopwatch();
             regularStopwatch.Start();
 
@@ -97,7 +97,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## WorkingWithArrays()
-        ```cs
+        ```csharp
             int[] ages = new int[] { 6, 7, 8, 3, 5 };
             string results;
 
@@ -123,7 +123,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## PadAndTrim()
-        ```cs
+        ```csharp
             string testString = "     Hello World      ";
             string results;
 
@@ -146,7 +146,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## SearchingStrings()
-        ```cs
+        ```csharp
             string testString = "This is a test of the search. Let's see how its testing works out.";
             bool resultsBoolean;
             int resultsInt;
@@ -189,7 +189,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## OrderingStrings()
-        ```cs
+        ```csharp
             CompareToHelper("Mary", "Bob");
             CompareToHelper("Mary", null);
             CompareToHelper("Adam", "Bob");
@@ -208,7 +208,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## CompareToHelper(string testA, string? testB)
-        ```cs
+        ```csharp
             int resultsInt = testA.CompareTo(testB);
             switch (resultsInt)
             {
@@ -225,7 +225,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## CompareHelper(string? testA, string? testB)
-        ```cs
+        ```csharp
             int resultsInt = String.Compare(testA, testB);
 
             switch (resultsInt)
@@ -243,7 +243,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## TestingEquality()
-        ```cs
+        ```csharp
             EqualityHelper("Bob", "Mary");
             EqualityHelper(null, "");
             EqualityHelper("", " ");
@@ -251,7 +251,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## EqualityHelper(string? testA, string? testB)
-        ```cs
+        ```csharp
             bool resultsBoolean;
 
             resultsBoolean = String.Equals(testA, testB);
@@ -288,7 +288,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## GettingASubstring()
-        ```cs
+        ```csharp
             string testString = "This is a test of substring. Let's see how its testing works out.";
             string results;
 
@@ -300,7 +300,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## ReplacingText()
-        ```cs
+        ```csharp
             string testString = "This is a test of replace. Let's see how its testing Works out for test.";
             string results;
 
@@ -315,7 +315,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## InsertingText()
-        ```cs
+        ```csharp
             string testString = "This is a test of insert. Let's see how its testing Works out for test.";
             string results;
 
@@ -324,7 +324,7 @@ List of String manipulations methods. Examples were created by Tim Corey.
         ```
 
 ## RemovingText()
-        ```cs
+        ```csharp
             string testString = "This is a test of remove. Let's see how its testing Works out for test.";
             string results;
 
